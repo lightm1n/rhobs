@@ -4,4 +4,4 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /tmp/
 
-Sitemap: https://lightm1n.github.io/rhobs/
+Sitemap: https://lightm1n.github.io/rhobs/sitemap.xml
