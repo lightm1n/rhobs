@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RH - Интернет-магазин обуви</title>
+    <meta name="description" content="Интернет-магазин модной обуви: кроссовки Nike, Jordan и другие. Бесплатная доставка по всей стране.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://вашсайт.com/">
+    <meta property="og:title" content="RH - Интернет-магазин модной обуви">
+    <meta property="og:description" content="Интернет-магазин модной обуви: кроссовки Nike, Jordan и другие. Бесплатная доставка по всей стране.">
+    <meta property="og:image" content="https://вашсайт.com/img/jordan1.jpeg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://вашсайт.com/">
+    <meta property="twitter:title" content="RH - Интернет-магазин модной обуви">
+    <meta property="twitter:description" content="Интернет-магазин модной обуви: кроссовки Nike, Jordan и другие. Бесплатная доставка по всей стране.">
+    <meta property="twitter:image" content="https://вашсайт.com/img/jordan1.jpeg">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "RH",
+      "url": "https://вашсайт.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://вашсайт.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">RH</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/jordan1.jpeg" class="d-block w-100" alt="Кроссовки Jordan">
+          </div>
+          <div class="carousel-item">
+            <img src="img/jordan2.png" class="d-block w-100" alt="Кроссовки Jordan серии 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/jordan3.jpg" class="d-block w-100" alt="Кроссовки Jordan серии 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="container mt-4">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem;" itemscope itemtype="https://schema.org/Product">
+                      <img src="img/монархи.JPG" class="card-img-top" alt="Кроссовки для повседневной носки" itemprop="image">
+                      <div class="card-body">
+                          <h5 class="card-title" itemprop="name">Для повседневной</h5>
+                          <p class="card-text" itemprop="description">Серия обуви производства Nike, предназначенная для повседневного использования.</p>
+                          <a href="#" class="btn btn-primary" itemprop="url">Подробнее</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem;" itemscope itemtype="https://schema.org/Product">
+                      <img src="img/найк 90.JPG" class="card-img-top" alt="Кроссовки для спорта и повседневной носки" itemprop="image">
+                      <div class="card-body">
+                          <h5 class="card-title" itemprop="name">Для спортивной-повседневной</h5>
+                          <p class="card-text" itemprop="description">Универсальные кроссовки для спорта и повседневной носки.</p>
+                          <a href="#" class="btn btn-primary" itemprop="url">Подробнее</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-4">
+                  <div class="card" style="width: 18rem;" itemscope itemtype="https://schema.org/Product">
+                      <img src="img/jordan 13.JPG" class="card-img-top" alt="Баскетбольные кроссовки Jordan" itemprop="image">
+                      <div class="card-body">
+                          <h5 class="card-title" itemprop="name">Для спорта- баскетбола</h5>
+                          <p class="card-text" itemprop="description">Профессиональные баскетбольные кроссовки серии Jordan.</p>
+                          <a href="#" class="btn btn-primary" itemprop="url">Подробнее</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
