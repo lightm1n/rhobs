@@ -9,17 +9,17 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://вашсайт.com/">
+    <meta property="og:url" content="https://lightm1n.github.io/rhobs/">
     <meta property="og:title" content="RH - Интернет-магазин модной обуви">
     <meta property="og:description" content="Интернет-магазин модной обуви: кроссовки Nike, Jordan и другие. Бесплатная доставка по всей стране.">
-    <meta property="og:image" content="https://вашсайт.com/img/jordan1.jpeg">
+    <meta property="og:image" content="https://lightm1n.github.io/rhobs/img/jordan1.jpeg">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://вашсайт.com/">
+    <meta property="twitter:url" content="https://lightm1n.github.io/rhobs/">
     <meta property="twitter:title" content="RH - Интернет-магазин модной обуви">
     <meta property="twitter:description" content="Интернет-магазин модной обуви: кроссовки Nike, Jordan и другие. Бесплатная доставка по всей стране.">
-    <meta property="twitter:image" content="https://вашсайт.com/img/jordan1.jpeg">
+    <meta property="twitter:image" content="https://lightm1n.github.io/rhobs/img/jordan1.jpeg">
     
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
@@ -27,10 +27,10 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "RH",
-      "url": "https://вашсайт.com/",
+      "url": "https://lightm1n.github.io/rhobs/",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://вашсайт.com/?q={search_term_string}",
+        "target": "https://lightm1n.github.io/rhobs/?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -41,7 +41,6 @@
     <script src="bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <!-- Остальное тело документа без изменений -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -55,26 +54,23 @@
                     <a class="nav-link active" aria-current="page" href="#">Главная</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Каталог</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Категории
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Повседневная</a></li>
+                      <li><a class="dropdown-item" href="#">Спортивная</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Баскетбольная</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Найти</button>
                 </form>
               </div>
             </div>
@@ -89,13 +85,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/jordan1.jpeg" class="d-block w-100" alt="Кроссовки Jordan">
+            <img src="img/jordan1.jpeg" class="d-block w-100" alt="Кроссовки Jordan" loading="lazy">
           </div>
           <div class="carousel-item">
-            <img src="img/jordan2.png" class="d-block w-100" alt="Кроссовки Jordan серии 2">
+            <img src="img/jordan2.png" class="d-block w-100" alt="Кроссовки Jordan серии 2" loading="lazy">
           </div>
           <div class="carousel-item">
-            <img src="img/jordan3.jpg" class="d-block w-100" alt="Кроссовки Jordan серии 3">
+            <img src="img/jordan3.jpg" class="d-block w-100" alt="Кроссовки Jordan серии 3" loading="lazy">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -112,7 +108,7 @@
           <div class="row">
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;" itemscope itemtype="https://schema.org/Product">
-                      <img src="img/монархи.JPG" class="card-img-top" alt="Кроссовки для повседневной носки" itemprop="image">
+                      <img src="img/монархи.JPG" class="card-img-top" alt="Кроссовки для повседневной носки" itemprop="image" loading="lazy">
                       <div class="card-body">
                           <h5 class="card-title" itemprop="name">Для повседневной</h5>
                           <p class="card-text" itemprop="description">Серия обуви производства Nike, предназначенная для повседневного использования.</p>
@@ -123,7 +119,7 @@
       
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;" itemscope itemtype="https://schema.org/Product">
-                      <img src="img/найк 90.JPG" class="card-img-top" alt="Кроссовки для спорта и повседневной носки" itemprop="image">
+                      <img src="img/найк 90.JPG" class="card-img-top" alt="Кроссовки для спорта и повседневной носки" itemprop="image" loading="lazy">
                       <div class="card-body">
                           <h5 class="card-title" itemprop="name">Для спортивной-повседневной</h5>
                           <p class="card-text" itemprop="description">Универсальные кроссовки для спорта и повседневной носки.</p>
@@ -134,7 +130,7 @@
       
               <div class="col-md-4">
                   <div class="card" style="width: 18rem;" itemscope itemtype="https://schema.org/Product">
-                      <img src="img/jordan 13.JPG" class="card-img-top" alt="Баскетбольные кроссовки Jordan" itemprop="image">
+                      <img src="img/jordan 13.JPG" class="card-img-top" alt="Баскетбольные кроссовки Jordan" itemprop="image" loading="lazy">
                       <div class="card-body">
                           <h5 class="card-title" itemprop="name">Для спорта- баскетбола</h5>
                           <p class="card-text" itemprop="description">Профессиональные баскетбольные кроссовки серии Jordan.</p>
